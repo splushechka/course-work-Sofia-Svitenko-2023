@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="boooooom.Cells.BrickWall" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAQBAQAgAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Cells\BrickWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Cells.Cell" Collapsed="true">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAQAAEACAAAAAABAQAAAAAAAAAAAAAAgAAAAgAABA=</HashCode>
+      <FileName>Cells\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Cells.EmptyCell" Collapsed="true">
+    <Position X="14.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAAAAAABAAAAAAAAAAAAIAAAgAAAAAAABA=</HashCode>
+      <FileName>Cells\EmptyCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Cells.StoneWall" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Cells\StoneWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Cells.Wall" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Cells\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.Enemies.ChaoticEnemy">
+    <Position X="1.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAEAAAAAAAAAABAAAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\Enemies\ChaoticEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.Enemies.Enemy">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAgAAAAAAARA=</HashCode>
+      <FileName>Entities\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.Enemies.LinearEnemy">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAIAAAAEAAAAAAAAAABAAAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\Enemies\LinearEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.ActiveEntity">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAECAEAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Entities\ActiveEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.Bomb" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAgAAAAAAAAAAAAIAAgAAACAAABgAAAAAAABA=</HashCode>
+      <FileName>Entities\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Entities.Heart" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\Heart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerEntity">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\PlayerEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prize" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAggAAAAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\Prize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.FileHelper.LevelInitializer" Collapsed="true">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileHelper\LevelInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.FileHelper.MusicPlayer" Collapsed="true">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>FileHelper\MusicPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Game.GameProcess">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAgAAUACoIgAgAEAAgBAABQAAICEgAQ=</HashCode>
+      <FileName>GameFolder\GameProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Game.GameTimer">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAEAAA=</HashCode>
+      <FileName>GameFolder\GameTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.JsonConverters.EnemyListConverter" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>JsonConverters\EnemyListConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Non_Entity_Classes.Coordinates" Collapsed="true">
+    <Position X="9" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAYBA=</HashCode>
+      <FileName>NonEntityClasses\Coordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.NonEntityClasses.GameAction" Collapsed="true">
+    <Position X="8" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>NonEntityClasses\GameAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.GameRender" Collapsed="true">
+    <Position X="14.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAgAAAAAAAAIAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Output\GameRender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="boooooom.Serializable.LevelSettings" Collapsed="true">
+    <Position X="13.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAECAAQEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>SerializableModels\LevelSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="boooooom.Program" Collapsed="true">
+    <Position X="15" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAgAAAAAAAAQAAAAAAAAAEAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="boooooom.Interfaces.IRender" Collapsed="true">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAgAAAAAAAAIAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\IRender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="boooooom.Enums.ActionType" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="boooooom.Enums.ActiveEntityType" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Enums\ActiveEntityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="boooooom.Enums.CellType" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAAACAAAA=</HashCode>
+      <FileName>Enums\CellType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="boooooom.Enums.EnemyType" Collapsed="true">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\EnemyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="boooooom.Enums.GameStatus" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\GameStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
